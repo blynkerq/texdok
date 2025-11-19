@@ -1,16 +1,104 @@
-# React + Vite
+# Product Catalog — React + Vite App
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Описание
 
-Currently, two official plugins are available:
+Это одностраничное веб-приложение (SPA), созданное с использованием **React** и **Vite**, которое отображает список товаров из внешнего API и позволяет просматривать детали каждого товара на отдельной странице.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Приложение реализует:
+- Загрузку данных о товарах с [FakeStoreAPI](https://fakestoreapi.com/).
+- Навигацию между страницами: список товаров и детальная страница.
+- Отображение рейтинга товара в виде звёзд ★☆☆☆☆.
+- Адаптивную сетку карточек товаров.
+- Обработку ошибок и загрузки.
 
-## React Compiler
+Проект предназначен для демонстрации базовых навыков фронтенд-разработки: работа с React, маршрутизация, асинхронные запросы, структура компонентов и публикация на GitHub Pages.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Установка и запуск
 
-## Expanding the ESLint configuration
+Чтобы запустить проект локально, выполните следующие шаги:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Склонируйте репозиторий:
+   ```bash
+   git clone https://github.com/blynkerq/texdok.git
+   cd texdok
+
+2. Установите зависимости:
+  npm install
+
+3. Запустите сервер разработки:
+  npm run dev
+
+4.Откройте в браузере:
+  http://localhost:5173
+
+  
+---
+
+### ✅ **4. Примеры использования**
+
+```markdown
+## Примеры использования
+
+- Перейдите по ссылке:  
+  → [https://blynkerq.github.io/texdok/products](https://blynkerq.github.io/texdok/products)
+
+- На странице `/products` вы увидите сетку всех товаров.
+- При клике на любой товар — переход на `/product/1`, `/product/2` и т.д.
+- На странице товара отображаются:
+  - Изображение
+  - Название
+  - Цена
+  - Описание
+  - Рейтинг (звёзды)
+- Есть кнопка "Назад" для возврата к списку.
+
+![Скриншот](https://via.placeholder.com/600x400?text=Product+Catalog+Screenshot)  
+*Пример интерфейса (замените ссылку на реальный скриншот, если есть)*
+
+## Структура репозитория
+texdok/
+├── src/
+│ ├── main.jsx # Точка входа, подключение React и Router
+│ ├── App.jsx # Главный компонент с маршрутами
+│ ├── components/
+│ │ └── ProductCard.jsx # Карточка товара с названием и рейтингом
+│ ├── pages/
+│ │ ├── ProductsPage.jsx # Страница со списком товаров
+│ │ ├── ProductDetailPage.jsx # Страница с деталями товара
+│ │ └── NotFoundPage.jsx # Страница 404
+│ └── index.css # Стили приложения
+├── public/
+│ └── vite.svg # Логотип Vite (по умолчанию)
+├── vite.config.js # Конфигурация Vite (base для GitHub Pages)
+├── package.json # Зависимости и скрипты (dev, build, deploy)
+├── README.md # Документация проекта
+└── .gitignore # Исключённые файлы (node_modules, dist и др.)
+
+## Технические требования
+
+- **Язык программирования:** JavaScript (ES6+)
+- **Фреймворк:** React 18+
+- **Сборщик:** Vite 4+
+- **Маршрутизация:** react-router-dom
+- **Node.js:** версия 18.x или выше
+- **Пакетный менеджер:** npm (входит в Node.js)
+- **ОС:** Windows, macOS, Linux
+- **Браузер:** Chrome, Firefox, Edge, Safari (современные версии)
+
+Для публикации используется GitHub Pages.
+
+## Авторы
+
+- **Erik** (Erik)  
+  Роль: Разработчик  
+  GitHub: [@blynkerq](https://github.com/blynkerq)  
+ 
+## Контакты
+
+По вопросам, предложениям или баг-репортам обращайтесь:
+
+- 📧 Email: erikk.@example.com
+
+
+Буду рад обратной связи!
