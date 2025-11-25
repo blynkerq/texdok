@@ -1,7 +1,7 @@
-# Product Catalog — React + Vite App
+Product Catalog — React + Vite App
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-## Описание
+ Описание
 
 Это одностраничное веб-приложение (SPA), созданное с использованием **React** и **Vite**, которое отображает список товаров из внешнего API и позволяет просматривать детали каждого товара на отдельной странице.
 
@@ -14,7 +14,7 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 Проект предназначен для демонстрации базовых навыков фронтенд-разработки: работа с React, маршрутизация, асинхронные запросы, структура компонентов и публикация на GitHub Pages.
 
-## Установка и запуск
+ Установка и запуск
 
 Чтобы запустить проект локально, выполните следующие шаги:
 
@@ -35,10 +35,10 @@ This template provides a minimal setup to get React working in Vite with HMR and
   
 ---
 
-### ✅ **4. Примеры использования**
+ ✅ **4. Примеры использования**
 
-```markdown
-## Примеры использования
+
+ Примеры использования
 
 - Перейдите по ссылке:  
   → [https://blynkerq.github.io/texdok/products](https://blynkerq.github.io/texdok/products)
@@ -75,7 +75,7 @@ texdok/
 ├── README.md # Документация проекта
 └── .gitignore # Исключённые файлы (node_modules, dist и др.)
 
-## Технические требования
+Технические требования
 
 - **Язык программирования:** JavaScript (ES6+)
 - **Фреймворк:** React 18+
@@ -88,7 +88,7 @@ texdok/
 
 Для публикации используется GitHub Pages.
 
-## Авторы
+ Авторы
 
 - **Erik** (Erik)  
   Роль: Разработчик  
