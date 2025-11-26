@@ -52,7 +52,7 @@ Product Catalog — React + Vite App
 
 
 ```
-
+```
  Структура репозитория
 ```markdown
 texdok/
