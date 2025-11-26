@@ -43,7 +43,7 @@
 ## Сбор обратной связи
 
 Форма опроса (Google Forms):  
-🔗 [https://forms.gle/gfAGSAGMasflagm](https://forms.gle/gfAGSAGMasflagm)
+🔗 [https://forms.gle/QUZHVtm8H1YhBk6e6](https://forms.gle/QUZHVtm8H1YhBk6e6)
 
 **Вопросы:**
 1. Насколько вам удобен интерфейс? (1–5)  
