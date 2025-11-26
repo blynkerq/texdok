@@ -31,7 +31,7 @@ Product Catalog — React + Vite App
    ```bash
    http://localhost:5173
 
-✅ 4. Примеры использования
+ 4. Примеры использования
 
 
  Примеры использования
